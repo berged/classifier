@@ -2,10 +2,6 @@ from sklearn import tree
 
 clf = tree.DecisionTreeClassifier()
 
-# CHALLENGE - create 3 more classifiers...
-# 1
-# 2
-# 3
 
 # [height, weight, shoe_size]
 X = [[181, 80, 44], [177, 70, 43], [160, 60, 38], [154, 54, 37], [166, 65, 40],
@@ -21,6 +17,5 @@ clf = clf.fit(X, Y)
 
 prediction = clf.predict([[190, 70, 43]])
 
-# CHALLENGE compare their reusults and print the best one!
 
 print(prediction)
